@@ -1,0 +1,122 @@
+.flex-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#form{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: auto;
+    padding: 20px 40px;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(184, 205, 135);
+    width:700px ;
+}
+.flex-div{
+   
+    margin: 10px auto;
+}
+.label-name{
+    font-size: 24px;
+
+}
+.input{
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+ 
+}
+.flex-check{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+#submitBtn{
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: orangered;
+    color: whitesmoke;
+    border: 1px solid orangered;
+    cursor: pointer;
+  
+}
+#submitBtn:hover{
+    background-color:rgb(83, 96, 71) ;
+    border: 1px solid rgb(83, 96, 71);
+}
+#div-one-error,#div-two-error,#div-three-error,#div-four-error,#div-five-error,#div-six-error{
+    color: orangered;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#div-seven-error{
+    color: orangered;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#info{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(113, 143, 26);
+}
+#check-info{
+    margin-bottom: 15px;
+    text-align: center;
+    color: orangered;
+}
+#reset-btn{
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgb(133, 156, 113);
+    color: whitesmoke;
+    border: 1px solid rgb(133, 156, 113);
+    cursor: pointer;
+    margin-left: 20px;
+}
+#reset-btn:hover{
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+#users{
+    width: 100px;
+    font-size: 22px;
+    padding: 10px;
+    background-color: rgb(75, 124, 180);
+    margin-top: 50px;
+    margin-right: 100px;
+    color:whitesmoke;
+    border: 1px solid rgb(75, 124, 180);
+    border-radius: 10px;
+}
+#users:hover{
+    background-color: orangered;
+}
+#user-display{
+    display: none;
+    font-size: 20px;
+    padding: 20px ;
+    margin: 30px 0px;
+    list-style-type: none;
+    background-color: rgb(235, 235, 235);
+}

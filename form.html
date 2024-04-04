@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FormEx</title>
+    <link href="form.css" rel="stylesheet" />
+  </head>
+  
+    <div class="flex-main">
+      <div id="form">
+        <div class="flex-div">
+          <label for="name" class="label-name">Nume:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="nume"
+            placeholder="Nume"
+            class="input"
+          /><br />
+          <div id="div-one-error"></div>
+
+          <label for="name" class="label-name">Prenume:</label><br />
+          <input
+            type="text"
+            id="surname"
+            name="prenume"
+            placeholder="Prenume"
+            class="input"
+          /><br />
+          <div id="div-two-error"></div>
+
+          <label for="number" class="label-name">Numar de telefon:</label><br />
+          <input
+            type="text"
+            id="mobil"
+            name="mobil"
+            placeholder="Mobil"
+            class="input"
+          /><br />
+          <div id="div-three-error"></div>
+
+          <label for="name" class="label-name">Varsta:</label><br />
+          <input
+            type="text"
+            id="persoana"
+            name="varsta"
+            placeholder="Varsta"
+            class="input"
+            maxlength="2"
+          /><br />
+          <div id="div-four-error"></div>
+        </div>
+        <div class="flex-div">
+          <label for="email" class="label-name">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            class="input"
+          /><br />
+          <div id="div-five-error"></div>
+
+          <label for="email" class="label-name"> Confirma Email:</label><br />
+          <input
+            type="email"
+            id="email-confirm"
+            name="emailConfirm"
+            placeholder="Email"
+            class="input"
+          /><br />
+          <div id="div-six-error"></div>
+
+          <label for="password" class="label-name"> Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            placeholder="Parola"
+            class="input"
+          /><br />
+          <div id="div-seven-error"></div>
+
+          <div class="flex-check">
+            <h4>Sunt de acord cu termenii si conditiile</h4>
+            <input
+              type="checkbox"
+              id="check"
+              name="check"
+              value="checked"
+              required
+            />
+          </div>
+          <div id="check-info"></div>
+          <div class=" flex-main">
+          <button
+            type="submit"
+            value="Trimite"
+            id="submitBtn"
+            onclick="submit()"
+          >
+            Trimite
+          </button>
+          <button id="reset-btn" onclick="reset()">Inscrie pe altcineva</button>
+        </div>
+        <div id="info"></div>
+        </div>
+      </div>
+    <div>
+      <button id="users" onclick="displayArr()">Inscrisi:</button>
+      <ul id="user-display"></ul>
+    </div>
+</div>
+    <script src="form.js"></script>
+  </body>
+</html>
